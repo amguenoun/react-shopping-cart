@@ -18,7 +18,7 @@ function App() {
 	};
 
 	return (
-		<ProductContext.Provider value={products}>
+		<ProductContext.Provider value={{ products, addItem }}>
 			<div className="App">
 				<Navigation cart={cart} />
 
